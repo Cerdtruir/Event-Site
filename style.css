@@ -54,7 +54,7 @@
 }
 
 .bg-3-opacity {
-  background-color: rgba(211, 211, 211, 20%);
+  background-color: rgb(211 211 211 / 20%);
 }
 
 .color-1 {
