@@ -1,3 +1,24 @@
+.background-header {
+  background-image: url("images/hero-background.jpg");
+  background-size: cover;
+}
+
+.background-program {
+  background-image: url("images/background_program.jpg");
+  background-size: cover;
+}
+.font-size-1 {
+  font-size: 4em;
+}
+
+.font-size-2 {
+  font-size: 3em;
+}
+
+.font-size-3 {
+  font-size: 25px;
+}
+
 .font-coco {
   font-family: COCOGOOSE, sans-serif;
 }
@@ -31,3 +52,6 @@
   color: #d3d3d3;
 }
 
+.hamburger {
+  font-size: 3em;
+}
