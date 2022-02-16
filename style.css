@@ -7,6 +7,16 @@
   background-image: url("images/background_program.jpg");
   background-size: cover;
 }
+
+.program-svg-img {
+  width: 10%;
+}
+
+.red-line {
+  width: 10%;
+  opacity: 1;
+}
+
 .font-size-1 {
   font-size: 4em;
 }
@@ -17,6 +27,10 @@
 
 .font-size-3 {
   font-size: 25px;
+}
+
+.program-height {
+  height: 15vh;
 }
 
 .font-coco {
@@ -39,6 +53,9 @@
   background-color: #d3d3d3;
 }
 
+.bg-3-opacity {
+  background-color: rgba(211, 211, 211, 20%);
+}
 
 .color-1 {
   color: #272a31;
