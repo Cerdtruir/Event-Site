@@ -135,4 +135,10 @@
   .horizontal-line {
     width: 5%;
   }
+
+  .program-hover:hover {
+    border-width: 2px;
+    border-color: #fff;
+    border-style: solid;
+  }
 }
