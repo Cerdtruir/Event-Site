@@ -104,6 +104,9 @@
     height: 100vh;
   }
 
+  .w-75-md {
+    width: 75%;
+  }
 
   .desktop-font-size-1 {
     font-size: 6em;
