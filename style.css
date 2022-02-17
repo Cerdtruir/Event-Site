@@ -84,6 +84,7 @@
   }
 
 
-.company-logo-image {
-  width: 90px;
+  .nav-logo-size {
+    width: 100%;
+  }
 }
