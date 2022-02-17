@@ -34,10 +34,6 @@
   width: 90px;
 }
 
-.top-nav-img-width {
-  width: 10px;
-}
-
 .horizontal-line {
   width: 10%;
   opacity: 1;
@@ -119,4 +115,9 @@
   .nav-logo-size {
     width: 100%;
   }
+
+  .top-nav-img-width {
+    width: 18px;
+  }
+
 }
