@@ -8,10 +8,21 @@
   background-size: cover;
 }
 
+.program-height {
+  height: 15vh;
+}
+
 .program-svg-img {
   width: 10%;
 }
 
+.hamburger {
+  font-size: 3em;
+}
+
+.company-logo-image {
+  width: 90px;
+}
 
 .top-nav-img-width {
   width: 10px;
