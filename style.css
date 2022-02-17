@@ -74,9 +74,15 @@
   color: #d3d3d3;
 }
 
-.hamburger {
-  font-size: 3em;
-}
+@media only screen and (min-width: 768px) {
+  .page-width-desktop {
+    width: 75vw;
+  }
+
+  .page-height-desktop {
+    height: 100vh;
+  }
+
 
 .company-logo-image {
   width: 90px;
