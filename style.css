@@ -131,4 +131,8 @@
   .program-svg-img {
     width: 50%;
   }
+
+  .horizontal-line {
+    width: 5%;
+  }
 }
