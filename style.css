@@ -8,6 +8,16 @@
   background-size: cover;
 }
 
+.h1-background {
+  background-image: url("images/h1.jpg");
+  /* stylelint-disable-next-line csstree/validator */
+  background-clip: text;
+  /* stylelint-disable-next-line property-no-vendor-prefix */
+  -webkit-background-clip: text;
+  color: transparent;
+  background-position: center;
+}
+
 .program-height {
   height: 15vh;
 }
@@ -94,6 +104,14 @@
     height: 100vh;
   }
 
+
+  .desktop-font-size-1 {
+    font-size: 6em;
+  }
+
+  .desktop-font-size-2 {
+    font-size: 4em;
+  }
 
   .nav-logo-size {
     width: 100%;
