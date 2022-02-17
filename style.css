@@ -116,8 +116,15 @@
     width: 100%;
   }
 
+  .bg-md-white {
+    background-color: #fff;
+  }
+
   .top-nav-img-width {
     width: 18px;
   }
 
+  .justify-center-md {
+    justify-content: center;
+  }
 }
