@@ -104,6 +104,10 @@
     width: 75%;
   }
 
+  .max-width-events {
+    max-width: 33%;
+  }
+
   .desktop-font-size-1 {
     font-size: 6em;
   }
