@@ -116,8 +116,12 @@
     width: 100%;
   }
 
-  .bg-md-white {
-    background-color: #fff;
+  .bg-md-1 {
+    background-color: #272a31;
+  }
+
+  .color-md-3 {
+    color: #d3d3d3;
   }
 
   .top-nav-img-width {
@@ -141,4 +145,5 @@
     border-color: #fff;
     border-style: solid;
   }
+
 }
