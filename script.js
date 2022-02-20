@@ -64,7 +64,7 @@ speakersFlex.classList.add(
   'justify-content-center',
   'my-5',
 );
-showMore.classList.add('w-75', 'px-5', 'bg-white');
+showMore.classList.add('w-75', 'px-5', 'bg-white', 'd-md-none');
 
 function displaySpeakers() {
   document.querySelector('.d-md-flex').classList.remove('d-none', 'd-md-flex');
