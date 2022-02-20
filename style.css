@@ -91,6 +91,18 @@
   color: #d3d3d3;
 }
 
+.speaker-flex-block {
+  width: 100%;
+}
+
+.speaker-picture {
+  display: block;
+  max-width: 350px;
+  max-height: 190px;
+  width: auto;
+  height: auto;
+}
+
 @media only screen and (min-width: 768px) {
   .page-width-desktop {
     width: 75vw;
@@ -148,5 +160,10 @@
     border-width: 2px;
     border-color: #fff;
     border-style: solid;
+  }
+
+  .speaker-flex-block {
+    row-gap: 100px;
+    width: 40%;
   }
 }
