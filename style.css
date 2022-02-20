@@ -103,6 +103,15 @@
   height: auto;
 }
 
+.show-more-button {
+  width: 95%;
+  background-color: #fff;
+  border-width: 1px;
+  border-color: #d3d3d3;
+  height: 60px;
+  margin-bottom: 48px;
+}
+
 @media only screen and (min-width: 768px) {
   .page-width-desktop {
     width: 75vw;
