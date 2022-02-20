@@ -72,7 +72,6 @@ function displaySpeakers() {
     showMore.onclick = '';
     showMore.textContent = 'End Of List';
   }
-  console.log(document.querySelector('.d-md-flex'));
 }
 
 speakersHeader.textContent = 'Featured Speakers';
@@ -126,7 +125,6 @@ speakerArray.forEach((speaker) => {
 
 document.querySelector('.navbar-toggler').onclick = function () {
   const hamburger = document.querySelector('.navbar-toggler');
-  console.log(hamburger.innerHTML);
   if (hamburger.classList.contains('close-button')) {
     hamburger.innerHTML = '<span class="hamburger color-1">&#9776;</span>';
     hamburger.classList.remove('close-button');
