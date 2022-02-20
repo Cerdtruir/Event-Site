@@ -51,10 +51,10 @@ speakersDiv.classList.add(
   'align-items-center',
   'bg-white',
   'w-100',
-  'py-5',
+  'py-md-5',
 );
 speakersHeader.classList.add('fw-bold', 'mt-5');
-speakershr.classList.add('horizontal-line', 'color-2');
+speakershr.classList.add('horizontal-line', 'color-2', 'm-0', 'mb-md-4');
 speakersFlex.classList.add(
   'd-flex',
   'flex-wrap',
