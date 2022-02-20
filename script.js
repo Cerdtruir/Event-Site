@@ -102,7 +102,7 @@ speakerArray.forEach((speaker) => {
   );
   speakerName.classList.add('color-1', 'm-0');
   speakerBio.classList.add('color-2', 'fst-italic');
-  speakerhr.classList.add('horizontal-line', 'color-3', 'm-0');
+  speakerhr.classList.add('horizontal-line', 'color-3', 'mt-0');
   speakerInfo.classList.add('color-1');
 
   // If there are more than 2 speaker blocks, hide on mobile
