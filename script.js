@@ -51,7 +51,7 @@ speakersDiv.classList.add(
   'align-items-center',
   'bg-white',
   'w-100',
-  'py-5'
+  'py-5',
 );
 speakersHeader.classList.add('fw-bold', 'mt-5');
 speakershr.classList.add('horizontal-line', 'color-2');
@@ -62,9 +62,18 @@ speakersFlex.classList.add(
   'container',
   'align-items-center',
   'justify-content-center',
-  'my-5'
+  'my-5',
 );
 showMore.classList.add('w-75', 'px-5', 'bg-white');
+
+function displaySpeakers() {
+  document.querySelector('.d-md-flex').classList.remove('d-none', 'd-md-flex');
+  if (document.querySelector('.d-md-flex') === null) {
+    showMore.onclick = '';
+    showMore.textContent = 'End Of List';
+  }
+  console.log(document.querySelector('.d-md-flex'));
+}
 
 speakersHeader.textContent = 'Featured Speakers';
 showMore.innerHTML = 'More <span class="color-2">&#9661;</span>';
@@ -89,7 +98,7 @@ speakerArray.forEach((speaker) => {
     'align-items-start',
     'justify-content-center',
     'right-speakers',
-    'w-75'
+    'w-75',
   );
   speakerName.classList.add('color-1', 'm-0');
   speakerBio.classList.add('color-2', 'fst-italic');
@@ -115,17 +124,8 @@ speakerArray.forEach((speaker) => {
   i += 1;
 });
 
-function displaySpeakers() {
-  document.querySelector('.d-md-flex').classList.remove('d-none', 'd-md-flex');
-  if (document.querySelector('.d-md-flex') === null) {
-    showMore.onclick = '';
-    showMore.textContent = 'End Of List';
-  }
-  console.log(document.querySelector('.d-md-flex'));
-}
-
 document.querySelector('.navbar-toggler').onclick = function () {
-  hamburger = document.querySelector('.navbar-toggler');
+  const hamburger = document.querySelector('.navbar-toggler');
   console.log(hamburger.innerHTML);
   if (hamburger.classList.contains('close-button')) {
     hamburger.innerHTML = '<span class="hamburger color-1">&#9776;</span>';
