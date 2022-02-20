@@ -166,4 +166,8 @@
     row-gap: 100px;
     width: 40%;
   }
+
+  .background-white-md {
+    background-color: #fff;
+  }
 }
