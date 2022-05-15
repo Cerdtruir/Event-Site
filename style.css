@@ -1,0 +1,186 @@
+.background-header {
+  background-image: url("images/hero-background.jpg");
+  background-size: cover;
+}
+
+.background-program {
+  background-image: url("images/background_program.jpg");
+  background-size: cover;
+}
+
+.h1-background {
+  background-image: url("images/h1.jpg");
+  /* stylelint-disable-next-line csstree/validator */
+  background-clip: text;
+  /* stylelint-disable-next-line property-no-vendor-prefix */
+  -webkit-background-clip: text;
+  color: transparent;
+  background-position: center;
+}
+
+.program-height {
+  height: 15vh;
+}
+
+.program-svg-img {
+  width: 15%;
+}
+
+.hamburger {
+  font-size: 3em;
+}
+
+.company-logo-image {
+  width: 90px;
+}
+
+.horizontal-line {
+  width: 10%;
+  opacity: 1;
+}
+
+.font-size-1 {
+  font-size: 4em;
+}
+
+.font-size-2 {
+  font-size: 2em;
+}
+
+.font-size-3 {
+  font-size: 20px;
+}
+
+.font-size-4 {
+  font-size: 8px;
+}
+
+.font-coco {
+  font-family: COCOGOOSE, sans-serif;
+}
+
+.font-lato {
+  font-family: Lato, sans-serif;
+}
+
+.bg-1 {
+  background-color: #272a31;
+}
+
+.bg-2 {
+  background-color: #ec5242;
+}
+
+.bg-3 {
+  background-color: #d3d3d3;
+}
+
+.bg-3-opacity {
+  background-color: rgb(211 211 211 / 20%);
+}
+
+.color-1 {
+  color: #272a31;
+}
+
+.color-2 {
+  color: #ec5242;
+}
+
+.color-3 {
+  color: #d3d3d3;
+}
+
+.speaker-flex-block {
+  width: 100%;
+}
+
+.speaker-picture {
+  display: block;
+  max-width: 350px;
+  max-height: 190px;
+  width: auto;
+  height: auto;
+}
+
+.show-more-button {
+  width: 95%;
+  background-color: #fff;
+  border-width: 1px;
+  border-color: #d3d3d3;
+  height: 60px;
+  margin-bottom: 48px;
+}
+
+.footer-logo {
+  width: 40%;
+}
+
+@media only screen and (min-width: 768px) {
+  .page-width-desktop {
+    width: 75vw;
+  }
+
+  .page-height-desktop {
+    height: 100vh;
+  }
+
+  .w-75-md {
+    width: 75%;
+  }
+
+  .max-width-events {
+    max-width: 33%;
+  }
+
+  .desktop-font-size-1 {
+    font-size: 6em;
+  }
+
+  .desktop-font-size-2 {
+    font-size: 4em;
+  }
+
+  .nav-logo-size {
+    width: 100%;
+  }
+
+  .bg-md-1 {
+    background-color: #272a31;
+  }
+
+  .color-md-3 {
+    color: #d3d3d3;
+  }
+
+  .top-nav-img-width {
+    width: 18px;
+  }
+
+  .justify-center-md {
+    justify-content: center;
+  }
+
+  .program-svg-img {
+    width: 50%;
+  }
+
+  .horizontal-line {
+    width: 5%;
+  }
+
+  .program-hover:hover {
+    border-width: 2px;
+    border-color: #fff;
+    border-style: solid;
+  }
+
+  .speaker-flex-block {
+    row-gap: 100px;
+    width: 40%;
+  }
+
+  .background-white-md {
+    background-color: #fff;
+  }
+}
