@@ -1,43 +1,41 @@
-const speakersObject = {
-  speakerOne: {
+const speakersArray = [
+  {
     picture: 'images/face1-b.jpg',
     name: 'John Smith',
     bio: 'Professor at Harvard',
     info: 'John studies web-develpment and published his book The Web Of The World in 2012',
   },
-  speakerTwo: {
+  {
     picture: 'images/face2-b.jpg',
     name: 'Jane Apple',
     bio: 'Professor at Harvard',
     info: 'John studies web-develpment and published his book The Web Of The World in 2012',
   },
-  speakerThree: {
+  {
     picture: 'images/face3-b.jpg',
     name: 'Fred Prodsis',
     bio: 'Professor at Harvard',
     info: 'John studies web-develpment and published his book The Web Of The World in 2012',
   },
-  speakerFour: {
+  {
     picture: 'images/face4-b.jpg',
     name: 'Megane Froths',
     bio: 'Professor at Harvard',
     info: 'John studies web-develpment and published his book The Web Of The World in 2012',
   },
-  speakerFive: {
+  {
     picture: 'images/face5-b.jpg',
     name: 'Ossan Droth',
     bio: 'Professor at Harvard',
     info: 'John studies web-develpment and published his book The Web Of The World in 2012',
   },
-  speakerSix: {
+  {
     picture: 'images/face6-b.jpg',
     name: 'Roths Mirde',
     bio: 'Professor at Harvard',
     info: 'John studies web-develpment and published his book The Web Of The World in 2012',
   },
-};
-
-const speakerArray = Object.keys(speakersObject);
+];
 
 const speakersDiv = document.getElementById('speakers-div');
 const speakersHeader = document.createElement('h2');
@@ -79,8 +77,7 @@ showMore.innerHTML = 'More <span class="color-2">&#9661;</span>';
 
 speakersDiv.append(speakersHeader, speakershr, speakersFlex, showMore);
 
-let i = 0;
-speakerArray.forEach((speaker) => {
+speakersArray.forEach((speaker, i) => {
   const speakerFlexBlock = document.createElement('div');
   const speakerPicture = document.createElement('img');
   const speakerFlexBlockRight = document.createElement('div');
@@ -109,10 +106,10 @@ speakerArray.forEach((speaker) => {
     speakerFlexBlock.classList.add('d-none', 'd-md-flex');
   }
 
-  speakerPicture.src = speakersObject[speaker].picture;
-  speakerName.textContent = speakersObject[speaker].name;
-  speakerBio.textContent = speakersObject[speaker].bio;
-  speakerInfo.textContent = speakersObject[speaker].info;
+  speakerPicture.src = speaker.picture;
+  speakerName.textContent = speaker.name;
+  speakerBio.textContent = speaker.bio;
+  speakerInfo.textContent = speaker.info;
 
   showMore.onclick = function () {
     displaySpeakers();
