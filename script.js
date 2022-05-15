@@ -67,8 +67,7 @@ showMore.classList.add('show-more-button', 'd-md-none');
 function displaySpeakers() {
   document.querySelector('.d-md-flex').classList.remove('d-none', 'd-md-flex');
   if (document.querySelector('.d-md-flex') === null) {
-    showMore.onclick = '';
-    showMore.textContent = 'End Of List';
+    showMore.style.display = 'none';
   }
 }
 
